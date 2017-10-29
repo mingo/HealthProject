@@ -46,15 +46,15 @@ public class MainActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-        Button week_rep = (Button) findViewById(R.id.week_rep);
-        Button month_rep = (Button) findViewById(R.id.month_rep);
+        //Button week_rep = (Button) findViewById(R.id.week_rep);
+        //Button month_rep = (Button) findViewById(R.id.month_rep);
 
-        week_rep.setOnClickListener(new View.OnClickListener() {
+        /*week_rep.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(), SplashScreen.class/*my new activity page*/));
+                startActivity(new Intent(getApplicationContext(), SplashScreen.class/*my new activity page));
             }
-        });
+        });*/
 
 
     }
