@@ -33,4 +33,12 @@
         completions."
     </string>
 
+    <string name="title_activity_happy_page">HappyPageActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_mid_page">MidPageActivity</string>
+
+    <string name="title_activity_sad_page">SadPageActivity</string>
+
 </resources>
