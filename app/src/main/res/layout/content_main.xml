@@ -34,7 +34,7 @@
             android:background="#EC7063"
             android:textColor="#FDFEFE"
             android:textStyle="bold" />
- <       <Button
+        <Button
             android:id="@+id/radioButton2"
             android:layout_width="match_parent"
             android:layout_height="70sp"
@@ -73,7 +73,7 @@
             android:textAlignment="center"
             android:background="#34495E"
             android:textColor="#FDFEFE"
-            android:textStyle="bold" />-->
+            android:textStyle="bold" />
     </FrameLayout>
 
 
