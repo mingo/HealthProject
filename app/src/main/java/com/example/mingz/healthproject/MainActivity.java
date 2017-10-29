@@ -169,6 +169,9 @@ public class MainActivity extends AppCompatActivity
             case R.id.nav_about:
 
             case R.id.nav_report:
+                Intent i = new Intent(MainActivity.this, graph.class);
+                startActivity(i);
+                break;
         }
         item.setChecked(false);
         /*
