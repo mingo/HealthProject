@@ -46,6 +46,48 @@ public class MainActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
+        Button button1 = findViewById(R.id.radioButton);
+        button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent link1 = new Intent(MainActivity.this, HappyPageActivity.class);
+                startActivity(link1);
+            }
+        });
+        Button button2 = findViewById(R.id.radioButton2);
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent link1 = new Intent(MainActivity.this, HappyPageActivity.class);
+                startActivity(link1);
+            }
+        });
+        Button button3 = findViewById(R.id.radioButton3);
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent link1 = new Intent(MainActivity.this, MidPageActivity.class);
+                startActivity(link1);
+            }
+        });
+        Button button4 = findViewById(R.id.radioButton4);
+        button4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent link1 = new Intent(MainActivity.this, SadPageActivity.class);
+                startActivity(link1);
+            }
+        });
+        Button button5 = findViewById(R.id.radioButton5);
+        button5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent link1 = new Intent(MainActivity.this, SadPageActivity.class);
+                startActivity(link1);
+            }
+        });
+
+
         //Button week_rep = (Button) findViewById(R.id.week_rep);
         //Button month_rep = (Button) findViewById(R.id.month_rep);
 
