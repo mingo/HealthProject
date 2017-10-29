@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">HealthProject</string>
+
+    <string name="splash_title">I\'m here with you!</string>
+    <string name="splash_subtitle">MHS 2017</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string name="weekly_report">Weekly Report</string>
+    <string name="monthly_report">Monthly Report</string>
+
+</resources>
