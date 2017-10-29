@@ -48,7 +48,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/fullscreen_content_controls"
+            android:id="@+id/fullscreen_content_controls1"
             style="?metaButtonBarStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -70,7 +70,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/fullscreen_content_controls"
+            android:id="@+id/fullscreen_content_controls2"
             style="?metaButtonBarStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

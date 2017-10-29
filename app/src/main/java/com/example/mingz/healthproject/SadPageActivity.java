@@ -1,12 +1,15 @@
 package com.example.mingz.healthproject;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.MotionEvent;
 import android.view.View;
+import android.widget.Button;
 
 /**
  * An example full-screen activity that shows and hides the system UI (i.e.
@@ -106,6 +109,22 @@ public class SadPageActivity extends AppCompatActivity {
         // operations to prevent the jarring behavior of controls going away
         // while interacting with the UI.
         findViewById(R.id.dummy_button).setOnTouchListener(mDelayHideTouchListener);
+        Button btn = findViewById(R.id.dummy_button1);
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent link1 = new Intent(SadPageActivity.this, graph.class);
+                startActivity(link1);
+            }
+        });
+        Button btn1 = findViewById(R.id.dummy_button);
+        btn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent link1 = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.google.ca"));
+                startActivity(link1);
+            }
+        });
     }
 
     @Override
